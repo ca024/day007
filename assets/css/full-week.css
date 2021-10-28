@@ -1,0 +1,36 @@
+/* Styling for full-week.html */
+h1 {
+  font-size: 40px;
+}
+a {
+  background-color: rgb(10, 29, 29);
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Remove numbers/bullets of ul/ol if it's displaying */
+li {
+  list-style: none;
+}
+/* End of noted code*/
+ol li {
+  font-size: x-large;
+  color: darkkhaki;
+  line-height: 50px;
+  background-color: dimgray;
+  margin-bottom: 5px;
+
+  /* Display the numbers/bullets of ul/ol */
+  /* display: list-item;
+  list-style-position: inside; */
+  /* End of noted code*/
+}
+
+ol li:hover {
+  /* Transform the element by scaling the size*/
+  transform: scale(1.1, 1.1);
+  filter: brightness(1.1);
+}
+
+/* End of code for full-week.html */
